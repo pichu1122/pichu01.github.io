@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="checkout.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="empcoimage1">
+      <a href="index.html"><button style="background: none;border-width: 0px;"><img class="logo" src="./empcoimg.png" width="200"></button></a>
+    </div>
+
+  </header>
+
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+  <div class="container">
+    <h4>Featured Products</h4>
+    
+
+    <div class="row">
+      <div class="col col-sm col-md col-lg">
+        <div class="cart">
+          <div class="cart-product">
+            <img src="jadamayadi1.png" alt="Product 1">
+            <div class="cart-product-description">
+              <h5 class="cart-product-name">Powder</h5>
+              <p class="cart-product-price">Rs 300</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-sm col-md col-lg">
+        <div class="cart">
+          <div class="cart-product">
+            <img src="OrthoRaksha.png" alt="Product 2">
+            <div class="cart-product-description">
+              <h5 class="cart-product-name">Balm</h5>
+              <p class="cart-product-price">Rs 150</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-sm col-md col-lg">
+        <div class="cart">
+          <div class="cart-product">
+            <img src="61ghzwkoMrL._AC_UF1000,1000_QL80_.jpg" alt="Product 3">
+            <div class="cart-product-description">
+              <h5 class="cart-product-name">Oil</h5>
+              <p class="cart-product-price">Rs 200</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm col-md col-lg">
+        <div class="cart">
+          <div class="cart-product">
+            <img src="bor0014_1_1.jpg.webp" alt="Product 4">
+            <div class="cart-product-description">
+              <h5 class="cart-product-name">Oinment</h5>
+              <p class="cart-product-price">Rs 250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-primary">Your cart</span>
+        <span class="badge bg-primary rounded-pill">3</span>
+      </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Kabasurakudineer</h6>
+            <small class="text-body-secondary">Powder</small>
+          </div>
+          <span class="text-body-secondary">Rs.250</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Herbal Tablets</h6>
+            <small class="text-body-secondary">Capsule</small>
+          </div>
+          <span class="text-body-secondary">Rs.150</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Ayurvedic Cleanser</h6>
+            <small class="text-body-secondary">Cream</small>
+          </div>
+          <span class="text-body-secondary">Rs.350</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+          <div class="text-success">
+            <h6 class="my-0">Promo code</h6>
+            <small>FIRSTBUY</small>
+          </div>
+          <span class="text-success">−Rs.150</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (Rs)</span>
+          <strong>Rs.600</strong>
+        </li>
+      </ul>
+      <br>
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Promo code">
+          <button type="submit" class="btn btn-secondary">Redeem</button>
+        </div>
+      </form>
+    </div>
+    <br> 
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="name">Phone Number</label>
+        <input type="number" id="phone number" class="form-control">
+      </div>
+      <br>
+      <select class="form-select" id="Country" required="">
+        <label for="name">Country</label>
+        <option value="">Country...</option>
+        <option>United states</option>
+        <option>India</option>
+        <option>Germany</option>
+        <option>Russia</option>
+        <option>France</option>
+        <option>Singapore</option>
+        <option>Thailand</option>
+      </select>
+      <br>
+      <select class="form-select" id="State" required="">
+        <label for="name">State</label>
+        <option value="">State...</option>
+        <option>Tamil Nadu</option>
+        <option>Kerala</option>
+        <option>Andhra Pradesh</option>
+        <option>Karnataka</option>
+        <option>Maharastra</option>
+        <option>Rajesthan</option>
+        <option>Delhi</option>
+      </select>
+      <br>
+      <select class="form-select" id="City" required="">
+        <label for="name">City</label>
+        <option value="">City...</option>
+        <option>Chennai</option>
+        <option>Coimbatore</option>
+        <option>Tirchirapalli</option>
+        <option>Salem</option>
+        <option>Tirupur</option>
+        <option>Erode</option>
+        <option>Madurai</option>
+      </select>
+      <br>
+      <div class="form-group">
+        <label for="message">Address</label>
+        <textarea id="message" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="checkbox-label">
+          <input type="checkbox">
+          Subscribe to newsletter
+        </label>
+      </div>
+      <hr>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="same-address">
+        <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="save-info">
+        <label class="form-check-label" for="save-info">Save this information for next time</label>
+      </div>
+      <hr>
+      <div class="form-group">
+        <label class="mb-3">
+          Payment
+        </label>
+      </div>
+
+      <div class="my-3">
+        <div class="form-check">
+          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+          <label class="form-check-label" for="credit">Credit card</label>
+        </div>
+        <div class="form-check">
+          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+          <label class="form-check-label" for="debit">Debit card</label>
+        </div>
+        <div class="form-check">
+          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+          <label class="form-check-label" for="paypal">PayPal</label>
+        </div>
+      </div>
+
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <label for="cc-name" class="form-label">Name on card</label>
+          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+          <small class="text-body-secondary">Full name as displayed on card</small>
+          <div class="invalid-feedback">
+            Name on card is required
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="cc-number" class="form-label">Credit card number</label>
+          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+          <div class="invalid-feedback">
+            Credit card number is required
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-expiration" class="form-label">Expiration</label>
+          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+          <div class="invalid-feedback">
+            Expiration date required
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <label for="cc-cvv" class="form-label">CVV</label>
+          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+          <div class="invalid-feedback">
+            Security code required
+          </div>
+        </div>
+      </div>
+      <br>
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <footer>
+    <p>&copy; 2023 Empco The Medical Company.</p>
+  </footer>
+</body>
+
+</html>
